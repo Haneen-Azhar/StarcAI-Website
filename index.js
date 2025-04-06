@@ -1,30 +1,41 @@
 document.addEventListener("DOMContentLoaded", () => {
-  function counter(id, start, end, duration, suffix = '') {
-    let obj = document.getElementById(id);
-    let current = start;
-    let range = end - start;
-    let increment = end > start ? 1 : -1;
-    let step = Math.abs(Math.floor(duration / range));
+  /**
+   * Animates a numeric counter from start to end when the element enters the viewport.
+   * @param {string} id - The ID of the element to update.
+   * @param {number} start - The starting number.
+   * @param {number} end - The final number to reach.
+   * @param {number} duration - Total time (ms) over which to animate.
+   * @param {string} suffix - Optional suffix to append (e.g., %, +).
+   */
+  function animateCounter(id, start, end, duration, suffix = '') {
+    const element = document.getElementById(id);
+    let currentValue = start;
+    const range = end - start;
+    const increment = end > start ? 1 : -1;
+    const stepTime = Math.abs(Math.floor(duration / range));
+
     const observer = new IntersectionObserver((entries) => {
-      console.log(entries);
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
-          const timer = setInterval(() => {
-            console.log("Current value:", current);
-            current += increment;
-            obj.textContent = current + suffix;
-            if (current === end) {
-              clearInterval(timer);
+          const intervalId = setInterval(() => {
+            currentValue += increment;
+            element.textContent = currentValue + suffix;
+
+            if (currentValue === end) {
+              clearInterval(intervalId);
             }
-          }, step);
-          observer.unobserve(obj);
+          }, stepTime);
+
+          observer.unobserve(element); // Run animation once
         }
       });
     });
-    observer.observe(obj);
+
+    observer.observe(element);
   }
 
-  counter("count1", 0, 31, 3000, '%'); 
-  counter("count2", 0, 22, 2500, '%'); 
-  counter("count3", 0, 500, 3000, '+');
+  // Initialize counters with their respective values
+  animateCounter("count1", 0, 31, 3000, '%');
+  animateCounter("count2", 0, 22, 2500, '%');
+  animateCounter("count3", 0, 500, 3000, '+');
 });
