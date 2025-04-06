@@ -1,0 +1,599 @@
+.heading {
+    left: 25%;
+}
+
+.sub-heading {
+    top: 48%;
+    left: 22%;
+    font-size: 45px;
+}
+
+.features1 {
+    top: 70%;
+    left: 30%;
+}
+
+.features2 {
+    top: 70%;
+    left: 48%;
+}
+
+.image1 {
+    width: 990px;
+}
+
+.f-container {
+    padding: 0px 130px;
+}
+
+.f1-img {
+    max-width: 97%;
+}
+
+.f2-img {
+    max-width: 97%;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .heading {
+        left: 21%;
+    }
+
+    .sub-heading {
+        left: 20%;
+        font-size: 40px;
+    }
+
+    .features1 {
+        left: 32%;
+    }
+
+    .features2 {
+        left: 50%;
+    }
+
+    .image1 {
+        width: 825px;
+    }
+
+    .f-container {
+        padding: 0px 110px;
+    }
+
+    .f1-img {
+        max-width: 99%;
+    }
+
+    .f2-img {
+        max-width: 99%;
+    }
+}
+
+@media (min-width: 850px) and (max-width: 890px) {
+    .section1 {
+        width: 104%;
+    }
+
+    .f-container {
+        padding: 0px 85px;
+    }
+
+    .f1-img {
+        max-width: 99%;
+    }
+
+    .f2-img {
+        max-width: 99%;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .accordion {
+        width: 688px;
+    }
+
+    .f1-img {
+        max-width: 95%;
+    }
+
+    .f2-img {
+        max-width: 85%;
+    }
+
+    .f-container {
+        padding: 0px 60px;
+    }
+
+    .f1-img {
+        max-width: 99%;
+    }
+
+    .f2-img {
+        max-width: 99%;
+    }
+
+}
+
+@media (min-width: 816px) and (max-width: 824px) {
+    .section1 {
+        width: 102%;
+    }
+}
+
+@media screen and (max-width: 815px) {
+    .heading {
+        left: 17%;
+    }
+
+    .sub-heading {
+        left: 16%;
+        font-size: 40px;
+    }
+
+    .features1 {
+        left: 28%;
+    }
+
+    .features2 {
+        left: 47%;
+    }
+
+    .image1 {
+        width: 760px;
+    }
+
+    .unlock-success-with {
+        font-size: 58px;
+    }
+
+
+}
+
+@media (min-width: 750px) and (max-width: 776px) {
+    .section1 {
+        width: 108%;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .heading {
+        top: 27%;
+        left: 25%;
+        font-size: 100px;
+        font-weight: bold;
+    }
+
+    .sub-heading {
+        top: 45%;
+        left: 24%;
+        font-size: 27px;
+    }
+
+    .features1 {
+        left: 27%;
+        padding: 20px 20px;
+    }
+
+    .features2 {
+        left: 48%;
+        padding: 20px 20px;
+    }
+
+    .image1 {
+        width: 639px;
+    }
+
+    .unlock-success-with {
+        font-size: 48px;
+    }
+
+    .accordion {
+        width: 580px;
+    }
+
+    .video-heading {
+        font-size: 34px;
+    }
+
+    .video {
+        width: 90%;
+    }
+
+    .f-container {
+        padding: 0px 30px;
+    }
+
+    .f1-img {
+        max-width: 99%;
+    }
+
+    .f2-img {
+        max-width: 99%;
+    }
+
+    .features {
+        font-size: 23px;
+        height: 102vh;
+    }
+}
+
+@media (min-width: 630px) and (max-width: 670px) {
+    .section1 {
+        width: 108%;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .heading {
+        top: 30%;
+        left: 20%;
+        font-size: 90px;
+        font-weight: bold;
+    }
+
+    .sub-heading {
+        top: 47%;
+        left: 18%;
+        font-size: 25px;
+    }
+
+    .features1 {
+        left: 23%;
+        padding: 10px 10px;
+    }
+
+    .features2 {
+        left: 45%;
+        padding: 10px 10px;
+    }
+
+    .image1 {
+        width: 486px;
+    }
+
+    .unlock-success-with {
+        line-height: 40px;
+        font-size: 35px;
+    }
+
+    .sub-heading-page2 {
+        font-size: 25px;
+    }
+
+    .display-4 {
+        font-size: 45px;
+        line-height: 1.2;
+        font-weight: 700;
+    }
+
+    .accordion {
+        width: 495px;
+    }
+
+    .f1-img {
+        max-width: 100%;
+    }
+
+    .f2-img {
+        max-width: 97%;
+    }
+
+    .features {
+        font-size: 25px;
+        height: 88vh;
+    }
+
+    .text-img-heading {
+        font-size: xx-large;
+    }
+
+    .video-heading {
+        font-size: 25px;
+    }
+
+    .video {
+        width: 88%;
+    }
+}
+
+@media (min-width: 550px) and (max-width: 577px) {
+    .section1 {
+        width: 108%;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 585px) {
+    .section1 {
+        width: 108%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .heading {
+        left: 18%;
+    }
+
+    .sub-heading {
+        left: 16%;
+    }
+
+    .accordion {
+        width: 400px;
+        padding: 36px 25px;
+    }
+
+    .video-heading {
+        font-size: 24px;
+        position: relative;
+        left: -3%;
+    }
+
+    .f1-img {
+        max-width: 100%;
+    }
+
+    .f2-img {
+        max-width: 97%;
+    }
+
+    .features {
+        font-size: 24px;
+        height: 80vh;
+    }
+
+    .video {
+        width: 88%;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    .heading {
+        left: 13%;
+    }
+
+    .sub-heading {
+        left: 10%;
+    }
+
+    .features1 {
+        top: 61%;
+    }
+
+    .features2 {
+        top: 61%;
+    }
+
+    .image1 {
+        width: 450px;
+    }
+
+    .unlock-success-with {
+        font-size: 29px;
+    }
+
+    .sub-heading-page2 {
+        font-size: 20px;
+    }
+
+    .video-heading {
+        font-size: 23px;
+        position: relative;
+        left: -3%;
+    }
+
+    .video {
+        width: 88%;
+    }
+}
+
+@media screen and (max-width: 462px) {
+    .heading {
+        left: 14%;
+        font-size: 90px;
+    }
+
+    .sub-heading {
+        left: 19%;
+        font-size: 20px;
+    }
+
+    .features1 {
+        top: 57%;
+        left: 20%;
+        padding: 15px 15px;
+        font-size: 15px;
+    }
+
+    .features2 {
+        top: 57%;
+        left: 46%;
+        padding: 15px 15px;
+        font-size: 15px;
+    }
+
+    .video-heading {
+        font-size: 22px;
+        position: relative;
+        left: -4%;
+    }
+
+    .features {
+        font-size: 20px;
+        height: 67vh;
+    }
+
+    .video {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+
+    .heading {
+        left: 14%;
+        font-size: 80px;
+    }
+
+    .sub-heading {
+        left: 15%;
+        font-size: 20px;
+    }
+
+    .image1 {
+        width: 418px;
+    }
+
+    /* .counter {
+        width: 150%;
+    } */
+
+    .accordion {
+        width: 344px;
+        padding: 36px 12px;
+    }
+
+    .display-4 {
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    .video-heading {
+        font-size: 20px;
+        position: relative;
+        left: -5%;
+    }
+
+    .video {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 413px) {
+    .features1 {
+        top: 57%;
+        left: 20%;
+        padding: 15px 15px;
+        font-size: 12px;
+    }
+
+    .features2 {
+        top: 57%;
+        left: 51%;
+        padding: 15px 15px;
+        font-size: 12px;
+    }
+
+    .image1 {
+        width: 395px;
+    }
+
+    .unlock-success-with {
+        margin: 0px;
+        font-size: 30px;
+        left: 0%;
+    }
+
+    .sub-heading-page2 {
+        position: relative;
+        left: 0%;
+    }
+
+    .video-heading {
+        font-size: 19px;
+        position: relative;
+        left: -5%;
+    }
+
+    .video {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 395px) {
+    .image1 {
+        width: 375px;
+    }
+
+    .heading {
+        left: 14%;
+        font-size: 73px;
+    }
+
+    .sub-heading {
+        top: 45%;
+        left: 15%;
+        font-size: 18px;
+    }
+
+    .video-heading {
+        font-size: 17px;
+        position: relative;
+        left: -5%;
+    }
+
+    .features {
+        font-size: 16px;
+        height: 58vh;
+    }
+
+    .text-img-heading {
+        font-size: x-large;
+    }
+
+    .video {
+        width: 100%;
+    }
+
+    #replace-video-button1 {
+        padding: 10px 20px;
+    }
+
+    #replace-video-button2 {
+        padding: 10px 20px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .image1 {
+        width: 360px;
+    }
+
+    .unlock-success-with {
+        font-size: 25px;
+        margin: 3px 0px 0px 0px;
+        padding: 0px;
+        left: 0%;
+    }
+
+    .sub-heading-page2 {
+        left: 0%;
+        font-size: 18px;
+    }
+
+    .accordion {
+        width: 344px;
+        padding: 36px 12px;
+    }
+
+    .f1-img {
+        max-width: 95%;
+    }
+
+    .f2-img {
+        max-width: 86%;
+    }
+}
+
+@media (min-width: 360px) and (max-width: 368px) {
+    .section1 {
+        width: 105%;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .section1 {
+        width: 105%;
+    }
+}

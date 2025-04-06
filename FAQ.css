@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+
+/* h1 {
+  text-align: center;
+  margin: 40px 0;
+} */
+
+
+.accordion {
+  width: 800px;
+  margin: 0px auto;
+  color: black;
+  background-color: white;
+  padding: 45px 45px;
+  font-family: Montserrat;
+}
+
+.accordion .FAQcontainer {
+  position: relative;
+  margin: 20px 20px;
+}
+
+.accordion .label {
+  position: relative;
+  padding: 10px 0;
+  font-size: 26px;
+  color: black;
+  cursor: pointer;
+}
+
+.accordion .label::before {
+  content: '+';
+  color: black;
+  position: absolute;
+  top: 50%;
+  right: -5px;
+  font-size: 30px;
+  transform: translateY(-50%);
+}
+
+.accordion .content {
+  position: relative;
+  background: white;
+  height: 0;
+  font-size: 20px;
+  text-align: justify;
+  width: 780px;
+  overflow: hidden;
+  transition: 0.2s;
+}
+
+.accordion hr {
+  width: 100;
+  margin-left: 0;
+  border: 1px solid grey;
+}
+
+.accordion .FAQcontainer.active .content {
+  height: auto;
+  padding: 10px;
+  transition: all 0.4s ease;
+}
+
+.accordion .FAQcontainer.active .label::before {
+  content: '-';
+  font-size: 30px;
+}
